@@ -11,3 +11,6 @@ Criando Maquinas Virtuais no Azure
 1- Maquinas virtuais nao sao sujeitas as politicas de inatividade (descritas na SLA) dos outros servicos da Azure.
 2- Maquinas virtuais podem ser criadas no tab de Computacao.
 3- Podem ser criadas maquinas virtuais em ate 3 zonas de disponibilidade, que junto com um sistema de armazenamento com redundancia geografica (criando backups em diferentes zonas), aumentam a disponibilidade do sistema.
+
+Configurando uma instância de Banco de Dados na Azure
+1- Sempre e importante verificar as opcoes quando criamos u'a maquina virtual, escolhendo com cuidado as ferramentas necessarias para a tarefa.
