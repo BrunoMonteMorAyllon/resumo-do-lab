@@ -14,3 +14,10 @@ Criando Maquinas Virtuais no Azure
 
 Configurando uma instância de Banco de Dados na Azure
 1- Sempre e importante verificar as opcoes quando criamos u'a maquina virtual, escolhendo com cuidado as ferramentas necessarias para a tarefa.
+
+Construindo Arquiteturas no Azure
+1- Caso um servidor numa regiao brasileira tenha um par fora do Brasil, as leis de LGPD (protecao de dados) dizem que o cliente deve fazer um pedido para a Microsoft, autorizando e solicitando o backup fora do pais.
+2- Utilize uma nomenclatura e tags claros, deixando claro o que cada recurso faz e quem deve pagar por eles.
+3- Sempre siga o padrao de apenas conceder a minima permissao necessaria para realizar um trabalho, o que evita criar riscos de seguranca.
+4- Podemos criar eventos automatizados para o resource group.
+5- O log de atividade nos permite ver quem criou os recursos e quais foram as ultimas pessoas a utiliza-los.
