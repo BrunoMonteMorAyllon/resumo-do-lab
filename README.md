@@ -21,3 +21,13 @@ Construindo Arquiteturas no Azure
 3- Sempre siga o padrao de apenas conceder a minima permissao necessaria para realizar um trabalho, o que evita criar riscos de seguranca.
 4- Podemos criar eventos automatizados para o resource group.
 5- O log de atividade nos permite ver quem criou os recursos e quais foram as ultimas pessoas a utiliza-los.
+
+Configurando Recursos e Dimensionamentos em Máquinas Virtuais na Azure:
+
+1- Existem diferentes padroes de maquinas virtuais disponiveis, com diferentes prioridades (memoria, teste, etc), permitindo ao usuario escolher a melhor para um servico.
+2- O modelo de dimensionamento deve ser cuidadosamente configurado para equilibrar custos e disponibilidade do servico. O tempo de consulta determina a duracao media que se espera de cada usuario.
+3- Sempre configurar as portas de entrada para seguir boas praticas de seguranca.
+4- Recomendado sempre manter a configuracao de SO de "Excluir com VM", evitando a criacao de discos orfaos.
+5- Excluir of IP publico e a NIC quando a maquina virtual for excluida evita que uma placa grafica fique orfa.
+6- Backups nao estao habilitados por default, mas ha boas opcoes para configuracoes padrao.
+7- Quando escolhemos a linguagem de um aplicativo de funcoes, o sistema operacional e automaticamente escolhido.
