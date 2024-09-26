@@ -31,3 +31,9 @@ Configurando Recursos e Dimensionamentos em Máquinas Virtuais na Azure:
 5- Excluir of IP publico e a NIC quando a maquina virtual for excluida evita que uma placa grafica fique orfa.
 6- Backups nao estao habilitados por default, mas ha boas opcoes para configuracoes padrao.
 7- Quando escolhemos a linguagem de um aplicativo de funcoes, o sistema operacional e automaticamente escolhido.
+
+Armazenamento na Azure
+1- O sistema de desempenho premium possui uma velocidade maior, utilizando melhores discos, mas cobra por toda a alocacao (o standard cobra apenas pelo uso).
+2- Quando uma conta de armazenamento e criada, a porta que e usada por default normalmente e 445, com o protocolo SMB. Cuidado que as operadoras normalmente bloqueiam essa porta.
+3- Exclusao temporaria de blobs/arquivos retem um item excluido por 7 dias, criando uma seguranca contra apagar por acidente.
+4- O AzCopy funciona em diferentes plataformas.
