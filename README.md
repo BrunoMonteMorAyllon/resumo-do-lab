@@ -37,3 +37,12 @@ Armazenamento na Azure
 2- Quando uma conta de armazenamento e criada, a porta que e usada por default normalmente e 445, com o protocolo SMB. Cuidado que as operadoras normalmente bloqueiam essa porta.
 3- Exclusao temporaria de blobs/arquivos retem um item excluido por 7 dias, criando uma seguranca contra apagar por acidente.
 4- O AzCopy funciona em diferentes plataformas.
+
+Identidade e Seguranca
+1- Quando um usuario e criado na nuvem, ele nao e replicado localmente. Porem, a senha e replicada apenas para usuarios sincronizados.
+2- Cuidado quando estiver definindo as regras de permissionamento dentro da nuvem (RBAC), pois e diferente do permissionamento para manipular contas de usuario.
+3- On premise synch disabled significa que as contas existem apenas na nuvem.
+4- As contas de usuarios que foram excluidos sao retidas por 30 dias, podendo ser restauradas nesse intervalo.
+5- Para criar roles personalizados, o uso de Microsoft Premium Entra ID e necessario.
+6- O Microsoft Defender for Cloud pode informar que tao conforme a cloud esta com o pardao de seguranca, em diferentes plataformas (AWS e GCP).
+7- Alertas de seguranca de cloud podem ser configurados para serem enviados para a equipe.
