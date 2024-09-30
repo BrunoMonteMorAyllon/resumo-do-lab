@@ -46,3 +46,12 @@ Identidade e Seguranca
 5- Para criar roles personalizados, o uso de Microsoft Premium Entra ID e necessario.
 6- O Microsoft Defender for Cloud pode informar que tao conforme a cloud esta com o pardao de seguranca, em diferentes plataformas (AWS e GCP).
 7- Alertas de seguranca de cloud podem ser configurados para serem enviados para a equipe.
+
+Otimizando Custos no Azure
+1- A pricing TCO calculator da Azure e a ferramenta fundamental para fazer estimativas de custos.
+2 Primeiro definimos as cargas de trabalho, como determinar a informacao dos servidores, bancos de dados, armazenamento, rede, ambiente (Windows ou Linux)
+3- As suposicoes incluem cobertura de maquina de software (economiza quando maquinas virtuais ou em instancias de maquinas utilizam of SQL server).
+4- A estimative mostra diferentes estimativas comparando o armazenamento local com o da nuvem.
+5- O preco dos servicos pode variar bastante dependendo da quantidade de horas ativas diarias, licensiamento e plano de reserva que utilizamos.
+6- O cost management pode nos mostrar nossos custos atuais, assim como fazer sugestoes de como reduzir os gastors.
+7- Podemos criar regras para fazer um recurse receber uma tag quando adicionado ao resource group.
