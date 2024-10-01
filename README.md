@@ -55,3 +55,12 @@ Otimizando Custos no Azure
 5- O preco dos servicos pode variar bastante dependendo da quantidade de horas ativas diarias, licensiamento e plano de reserva que utilizamos.
 6- O cost management pode nos mostrar nossos custos atuais, assim como fazer sugestoes de como reduzir os gastors.
 7- Podemos criar regras para fazer um recurse receber uma tag quando adicionado ao resource group.
+
+Gerenciando Politicas em Acessos Azure
+1- O site do service tr5ust da microsoft possui dados sobre os diferentes padroes regulatorios e recursos de conformidade para os varios paises que atende, que sao muito uteis para auditorias.
+2- Podemos adicionar bloqueios a nivel de resource groups ao entrar em Resource Group->Locks. 
+3- A partir do momento que um recuso sai do resource group, ele perde of lock, a menos que o lock tenha sido aplicado no proiprio recurso.
+4- O Microsoft Purview pode fazer uma analyse de compliance e seguranca, apresentando recomendacoes.
+5- O gerenciador de policies pode mostrar os recursos que estao dentro e fora de compliance dentro das politicas de um ambiente.
+6- As policies apenas afetam o escopo para o qual foram anexadas.
+7- Podemos criar uma politica em modo desabilitado, o que nos permite trabalhar nela ate estar pronta para ser testada.
