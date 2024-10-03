@@ -64,3 +64,10 @@ Gerenciando Politicas em Acessos Azure
 5- O gerenciador de policies pode mostrar os recursos que estao dentro e fora de compliance dentro das politicas de um ambiente.
 6- As policies apenas afetam o escopo para o qual foram anexadas.
 7- Podemos criar uma politica em modo desabilitado, o que nos permite trabalhar nela ate estar pronta para ser testada.
+
+Ferramentas de Implantação na Azure
+1- O Azure Cloud Shell precisa de um storage account para funcionar.
+2- ACS permite fazer o download e upload de arquivos com a sua interface.
+3- No tab de Automation->CLI, ha uma referencia de diferentes comandos de Azure Cloud Line Interface e Power Shell.
+4- Export Template permite criar um template em JSON, que pode ser usado para exportar uma VNET.
+5- No azure.github.io/bicep/ contem o Bicep Playground, que permite comparar exemplos em Bicep e em ARM, o que o faz um recurso muito util.
