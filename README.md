@@ -71,3 +71,8 @@ Ferramentas de Implantação na Azure
 3- No tab de Automation->CLI, ha uma referencia de diferentes comandos de Azure Cloud Line Interface e Power Shell.
 4- Export Template permite criar um template em JSON, que pode ser usado para exportar uma VNET.
 5- No azure.github.io/bicep/ contem o Bicep Playground, que permite comparar exemplos em Bicep e em ARM, o que o faz um recurso muito util.
+
+Monitoramento Inteligente com o Azure
+1- O Monitor pode nos dar informacao de aplicacoes, containers, VMs, alertas, etc.
+2- O Service Health mostra o status de um servico em todas as regioes do mundo.
+3- O Advisor score faz recomendacoes de como usar nossos recursos de maineira mais segura e eficiente.
